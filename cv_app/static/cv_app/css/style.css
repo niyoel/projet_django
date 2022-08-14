@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.navbar-nav li a {
+    color: gray
+}
+
+.container-fluid {
+    height: 100px;
+    width: 200;
+    padding-inline-start: 30%;
+    background-color: rgb(247, 245, 251);
+}
+
+.divbar {
+    height: 100px;
+    width: 200;
+    padding-inline-start: 30%;
+    background-color: rgba(58, 14, 230, 0.317);
+}
