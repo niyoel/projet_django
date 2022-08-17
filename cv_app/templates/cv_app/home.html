@@ -1,7 +1,12 @@
 
- {% extends "base.html" %}
- {% block title %}My CV{% endblock %}
+{% extends "base.html" %}
+{%load static%}
  
- 
-</body>
-</html>
+ {% block content %}
+ <div class="pic">
+    <img width="250" height="350" src={% static 'cv_app/images/pic.jpg' %}/>
+    
+        Ellen NIYOBUHUNGIRO
+   
+</div>
+ {% endblock %}
