@@ -13,17 +13,21 @@ body {
 .container-fluid {
     height: 300px;
     width: 200;
-    padding-inline-start: 30%;
-    background-color: rgb(247, 245, 251);
+    padding-inline-start: 10%;
+    background-color: rgb(0, 0, 0);
+    padding-right: 8rem;
 }
 
 #apropos {
-    padding-inline-start: 30%;
-    padding-bottom: 30%;
-    color: chocolate;
+    padding-inline-start: 40%;
+    padding-top: 20%;
+    color: rgb(249, 246, 245);
+}
+
+.section {
+    padding-top: 2rem;
 }
 
 img {
-    border-radius: 40%;
-    float: left;
+    border-radius: 80%;
 }
