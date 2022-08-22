@@ -1,13 +1,15 @@
 body {
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar-brand {
     color: red;
+    margin-left: 6rem;
 }
 
 .navbar-nav li a {
-    color: gray
+    color: rgb(240, 206, 206)
 }
 
 .container-fluid {
@@ -20,8 +22,8 @@ body {
 
 #apropos {
     padding-inline-start: 40%;
-    padding-top: 20%;
-    color: rgb(249, 246, 245);
+    padding-top: 5%;
+    color: rgb(250, 247, 247)
 }
 
 .section {
@@ -30,5 +32,12 @@ body {
 
 img {
     border-radius: 80%;
-    margin-right: 4rem;
+}
+
+.container-apropos {
+    height: 1900px;
+    width: 200;
+    padding-inline-start: 10%;
+    background-color: rgb(0, 0, 0);
+    padding-right: 8rem;
 }

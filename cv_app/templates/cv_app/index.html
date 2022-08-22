@@ -1,23 +1,23 @@
 {% extends "base.html" %} 
 {%load static%} 
 {% block content %}
-<div class="container">
-   
+<div class="container-apropos">
     <div class="bg-image " 
-    style="background-image: url('{% static 'cv_app/imgs/avatarr.jpg' %}');
-    height: 100vh">
-                  <div class="row">
-                    <div id="apropos">
-                    <div class="col-lg-6">
+     style="background-image: url('{% static 'cv_app/imgs/background.jpg' %}');
+     ">
+        <div class="row">
+            <div id="apropos">
+                <div class="col-lg-8">
                     <h1>Apropos de moi</h1>
                     <p> Professionnelle en informatique et des opérations au sein d'un ONG
                       internationale dans les différents domaines comme informatique,
                       administration, ressources humaines et logistique avec 4 ans
                       d'expérience
                     </p>
-                  </div>
-            
-                My names: {{ name }} {{ surname }} <br>
+                </div>
+                <div class="col-lg-8">
+
+                     My names: {{ name }} {{ surname }} <br>
    
                     <span>Date de naissance</span> : {{ birthday }}<br>
                     <span>Email</span> : {{ email }}<br>
@@ -29,11 +29,11 @@
         </div>
     </div>
 </div>
-</div>
+
             
     <!--Resume Section-->
     <section class="section" id="resume">
-        <div class="container">
+        <div class="container-resume">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
@@ -77,11 +77,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <div class="card text">
                        <div class="card-header">
                             <div id="competences">
-                                <h4 class="mt-2">Compétences</h4>
+                                <h4 class="mt-4">Compétences</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
