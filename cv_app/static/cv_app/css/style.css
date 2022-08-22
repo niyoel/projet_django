@@ -17,10 +17,8 @@ body {
     background-color: rgb(247, 245, 251);
 }
 
-.pic {
-    height: 500px;
-    width: 200;
+.navbar-nav-brand {
     padding-inline-start: 30%;
     color: chocolate;
-    background-color: rgb(107, 58, 58);
+    background-color: black
 }

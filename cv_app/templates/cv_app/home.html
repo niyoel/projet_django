@@ -1,12 +1,222 @@
-
-{% extends "base.html" %}
-{%load static%}
- 
- {% block content %}
- <div class="pic">
-    <img width="250" height="350" src={% static 'cv_app/images/pic.jpg' %}/>
-    
-        Ellen NIYOBUHUNGIRO
+{% extends "base.html" %} {%load static%} {% block content %}
+<div class="pic">
+  <img width="250" height="350" src={% static 'cv_app/images/pic.jpg' %}/>
+ <p>
+    My names: {{ name }} {{ surname }} <br>
+    Email: {{ email }}<br>
    
+    Birthday: {{  adress }}<br>
+    Adress: {{ adress }}<br>
+    Email: {{ email }}<br>
+    Phonenumber: {{ phonenumber }}<br>
+    Github: {{ linkd }}<br>
+    Linkdin: {{ gith }}
+ </p>
+
 </div>
- {% endblock %}
+<div id="Apropos">
+  <div class="container">
+    <div class="row">
+      <h1>Apropos</h1>
+      <p> Professionnelle en informatique et des opérations au sein d'un ONG
+        internationale dans les différents domaines comme informatique,
+        administration, ressources humaines et logistique avec 4 ans
+        d'expérience
+       
+      </p>
+    </div>
+  </div>
+</div>
+<div id="competences">
+  <div class="container">
+    <div class="row">
+      <h1>Mes competences</h1>
+      <ul class="competence">
+        <li>Programmation Oriente Objet</li>
+        <li>MVC</li>
+        <li>Base de donne relationnel</li>
+        <li>Création d’un cahier de charges</li>
+        <li>Méthode Agile</li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <div id="educations">
+    <div class="container">
+      <div class="row">
+        <h1>Mes competences</h1>
+        <ul class="educations">
+          <li>
+            Janvier 2022 – Présent : Développeur web Full Stack à CFITECH
+            (Bruxelles)
+            <ul>
+              <li>
+                Outils fondamentaux : terminal, GitHub, HTML/CSS, responsive
+                design, bootstrap, js intro.
+              </li>
+              <li>Langage Frontend : Markdown, html/CSS, JavaScript</li>
+              <li>Language Backend: JavaScript, php, MySQL, Python</li>
+              <li>Framework: Django, React, Symfony</li>
+            </ul>
+          </li>
+          <li>
+            M2017 – 2019 : Master en Administration des affaires option de
+            gestion de projet à l’université de Kenya (Mount Kenya Universty).
+          </li>
+          <li>
+            2007-2012 : bachelier en technologie de l’informatique option de
+            gestion et informatique à l’université adventiste d’Afrique centrale
+            au Rwanda (AUCA)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="experiences">
+        <div class="container">
+          <div class="row">
+            <h1>Experiences Proffessionelles</h1>
+            <ul class="experiences">
+
+              <li>Décembre 2015- Septembre 2019 : Assistant
+                informatique et Assistant administrative, au sien de Save
+                the Children International
+                Fonctions informatiques :</li>
+              <li>MVC</li>
+              <li>Base de donne relationnel</li>
+              <li>Création d’un cahier de charges</li>
+              <li>Méthode Agile</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+    {% endblock %}
+  </div>
+</div>
+<div class="card">
+    <div class="card-header">
+         <div class="pull-left">
+             <h4 class="mt-2">Languages</h4>
+             <span class="line"></span>  
+         </div>
+     </div>
+     <div class="card-body pb-2">
+        <h6>English</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>French</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+     </div>
+         <div class="col">
+             <div class="card">
+                <div class="card-header">
+                     <div id="competences">
+                         <h4 class="mt-2">Compétences</h4>
+                         <span class="line"></span>  
+                     </div>
+                 </div>
+                 <div class="card-body pb-2">
+                    <h6>hTL5 &amp; CSS3</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h6>JavaScript</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h6>PHP</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h6>SQL</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h6>Python</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                     <h6>Wordpress</h6>
+                     <div class="progress mb-3">
+                         <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+
+
+
+
+         <div class="row">
+            <div class="col">
+                <div class="card">
+                   <div class="card-header">
+                        <div id="competences">
+                            <h4 class="mt-2">Compétences</h4>
+                            <span class="line"></span>  
+                        </div>
+                    </div>
+                    <div class="card-body pb-2">
+                       <h6>hTL5 &amp; CSS3</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>JavaScript</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>PHP</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>SQL</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>Python</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>Wordpress</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                       <div class="card-header">
+                            <div id="competences">
+                                <h4 class="mt-2">Compétences</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>hTL5 &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Wordpress</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          
