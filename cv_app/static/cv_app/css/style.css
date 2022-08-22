@@ -17,8 +17,12 @@ body {
     background-color: rgb(247, 245, 251);
 }
 
-.navbar-nav-brand {
+#apropos {
     padding-inline-start: 30%;
     color: chocolate;
-    background-color: black
+}
+
+img {
+    border-radius: 40%;
+    float: left;
 }

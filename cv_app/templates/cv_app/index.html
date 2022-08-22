@@ -1,10 +1,13 @@
-{% extends "base.html" %} {%load static%} {% block content %}
+{% extends "base.html" %} 
+{%load static%} 
+{% block content %}
 <div class="container">
-    <div class="navbar-nav-brand text-center">
-    <img width="250" height="350" src={% static 'cv_app/imgs/avatar.jpg' %}/>
-    </div
-            <div id="Apropos">
+   
+    <div class="bg-image " 
+    style="background-image: url('{% static 'cv_app/imgs/avatarr.jpg' %}');
+    height: 100vh">
                   <div class="row">
+                    <div id="apropos">
                     <div class="col-lg-6">
                     <h1>Apropos</h1>
                     <p> Professionnelle en informatique et des opérations au sein d'un ONG
@@ -13,7 +16,7 @@
                       d'expérience
                     </p>
                   </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 My names: {{ name }} {{ surname }} <br>
    
                     <span>Date de naissance</span> : {{ birthday }}<br>
@@ -24,8 +27,8 @@
                     <span>Address</span> :  {{ adress }}<br>
             </div>
         </div>
-        </div>
     </div>
+</div>
 </div>
             
     <!--Resume Section-->
