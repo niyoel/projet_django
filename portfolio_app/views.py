@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def my_cv(request):
-    return render(request,"portofolio_app/portfolio.html")
+def portfolio(request):
+    return render(request,"portfolio_app/portfolio.html")
