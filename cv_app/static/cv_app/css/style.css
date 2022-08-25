@@ -41,3 +41,12 @@ img {
     background-color: rgb(54, 75, 99);
     padding-right: 8rem;
 }
+
+.container-footer {
+    color: white;
+    height: 100px;
+    width: 200;
+    padding-inline-start: 10%;
+    background-color: rgb(0, 0, 0);
+    padding-right: 8rem;
+}
